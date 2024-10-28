@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chand - Admin Dashboard</title>
+    <link rel="stylesheet" href="../assets/css/styles.css">
+</head>
+<body>
+    <%- include('partials/header') %>
+    <%- include('partials/navbar') %>
+
+    <main>
+        <section class="admin-overview">
+            <h2>Admin Dashboard</h2>
+            <p>Manage all aspects of the website from this central hub.</p>
+        </section>
+
+        <section class="admin-links">
+            <div class="link-item">
+                <a href="#user-management">User Management</a>
+            </div>
+            <div class="link-item">
+                <a href="#product-management">Product Management</a>
+            </div>
+            <div class="link-item">
+                <a href="#order-management">Order Management</a>
+            </div>
+        </section>
+
+        <section class="admin-content" id="user-management">
+            <h3>User Management</h3>
+            <p>View, edit, and delete users.</p>
+            <!-- Add relevant management features -->
+        </section>
+
+        <section class="admin-content" id="product-management">
+            <h3>Product Management</h3>
+            <p>View, edit, and delete products.</p>
+            <!-- Add relevant management features -->
+        </section>
+
+        <section class="admin-content" id="order-management">
+            <h3>Order Management</h3>
+            <p>View, edit, and delete orders.</p>
+            <!-- Add relevant management features -->
+        </section>
+    </main>
+
+    <%- include('partials/footer') %>
+</body>
+</html>

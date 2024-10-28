@@ -1,0 +1,17 @@
+[
+    {
+      "id": 1,
+      "title": "Blog Post 1",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "author": "Author 1",
+      "publishDate": "2024-01-01"
+    },
+    {
+      "id": 2,
+      "title": "Blog Post 2",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit.",
+      "author": "Author 2",
+      "publishDate": "2024-02-01"
+    }
+  ]
+  
